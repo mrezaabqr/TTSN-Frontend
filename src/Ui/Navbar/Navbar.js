@@ -9,7 +9,9 @@ class Navbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            current: "home"
+            current: "home",
+            prevScrollPos: 200,
+            currentClassName: "no-background"
         }
     }
 
@@ -19,9 +21,33 @@ class Navbar extends Component {
         })
     };
 
+    handleScroll = () => {
+        const {prevScrollPos} = this.state;
+        const currentScrollPos = window.pageYOffset;
+        if (prevScrollPos < currentScrollPos) {
+            this.setState({
+                currentClassName: "have-background"
+            });
+            console.log("have")
+        } else {
+            this.setState({
+                currentClassName: "no-background"
+            });
+            console.log("no")
+        }
+    };
+
+    componentDidMount = () => {
+        window.addEventListener("scroll", this.handleScroll)
+    };
+
+    componentWillUnmount = () => {
+        window.removeEventListener("scroll", this.handleScroll)
+    };
+
     render() {
         return (
-            <div className={"navbar-wrapper"}>
+            <div className={"navbar-wrapper " + this.state.currentClassName}>
                 <Menu
                     selectable={false}
                     className={"navbar-self"}

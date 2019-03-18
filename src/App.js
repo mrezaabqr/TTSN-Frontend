@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from "./Component/Header";
 import Layout from "./Ui/Layout";
+import SectionOne from "./Component/SectionOne";
 
 class App extends Component {
     render() {
@@ -8,6 +9,7 @@ class App extends Component {
             <div>
                 <Layout>
                     <Header/>
+                    <SectionOne/>
                 </Layout>
             </div>
         );
