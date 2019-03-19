@@ -30,7 +30,6 @@ class Header extends Component {
     };
 
     render() {
-        console.log(this.state.justify);
         return (
             <div className={"header-wrapper"}>
                 <Row type="flex" justify={this.state.justify}>
@@ -40,6 +39,7 @@ class Header extends Component {
                             <p>تسکولو سیستمی امن و آسان برای مدیریت کار و پروژه‌هاست که بهره‌وری و بازدهی تیم شما رو
                                 افزایش میده.</p>
                             <Button type="primary" size={"large"}
+                                    className={"header-section-button"}
                                     style={{marginTop: "100px", backgroundColor: "#4555C6", borderColor: "#4555C6"}}>
                                 ! رایگان شروع کنید
                             </Button>

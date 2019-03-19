@@ -5,6 +5,152 @@
     src: url(Assets/Fonts/IRANSansWeb_Medium.woff2) format('woff2'), url(Assets/Fonts/IRANSansWeb_Medium.woff) format('woff')
 }
 
+/* General */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-item-items {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.mr-3 {
+    margin-right: 15px;
+}
+
+.mr-4 {
+    margin-right: 20px;
+}
+
+.mr-5 {
+    margin-right: 25px;
+}
+
+.mr-6 {
+    margin-right: 30px;
+}
+
+.mr-7 {
+    margin-right: 35px;
+}
+
+.mr-8 {
+    margin-right: 40px;
+}
+
+.mr-9 {
+    margin-right: 45px;
+}
+
+.mr-10 {
+    margin-right: 50px;
+}
+
+.mr-11 {
+    margin-right: 55px;
+}
+
+.mr-12 {
+    margin-right: 60px;
+}
+
+.mr-13 {
+    margin-right: 65px;
+}
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mt-5 {
+    margin-top: 25px;
+}
+
+.mt-6 {
+    margin-top: 30px;
+}
+
+.mt-7 {
+    margin-top: 35px;
+}
+
+.mt-8 {
+    margin-top: 40px;
+}
+
+.mt-9 {
+    margin-top: 45px;
+}
+
+.mt-10 {
+    margin-top: 50px;
+}
+
+.mt-11 {
+    margin-top: 55px;
+}
+
+.mt-12 {
+    margin-top: 60px;
+}
+
+.mt-13 {
+    margin-top: 65px;
+}
+
+.mt-14 {
+    margin-top: 70px;
+}
+
+.mt-15 {
+    margin-top: 80px;
+}
+
+.mt-16 {
+    margin-top: 90px;
+}
+
+.mt-17 {
+    margin-top: 100px;
+}
+
+.text-center {
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.text-white {
+    color: white;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -103,6 +249,10 @@ code {
     font-size: 20px !important;
 }
 
+.header-section-button {
+
+}
+
 /* Column */
 
 @media (max-width: 1024px) {
@@ -118,8 +268,8 @@ code {
 /* Section 1 */
 
 .section-one-wrapper {
-    min-height: 800px;
-    height: 800px;
+    min-height: 600px;
+    height: 600px;
 }
 
 .section-one-col-justify {
@@ -127,6 +277,7 @@ code {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 410px;
 }
 
 .section-one-col-card {
@@ -140,8 +291,157 @@ code {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    border: none !important;
 }
 
 .section-one-card-title {
     font-size: 22px;
+}
+
+.section-one-icon {
+    width: 200px;
+}
+
+/* section two*/
+
+.section-two-wrapper {
+    height: 200px;
+    background-color: #4257C4;
+}
+
+.section-two-button {
+    width: 215px;
+    height: 65px;
+    background-color: #002178 !important;
+    border-color: #002178 !important;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* section three */
+.section-three-wrapper {
+    height: 1200px;
+    min-height: 1200px;
+}
+
+.section-three {
+    width: 60%;
+    color: #3b4755;
+}
+
+.section-three-button {
+    background-color: rgb(69, 85, 198) !important;
+    border-color: rgb(69, 85, 198) !important;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.section-three-col-card {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+.section-three-col {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.section-three-img-link {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://taskulu.com/wp-content/uploads/2016/06/Hoorakhsh-Studios.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three-img-link-one {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://taskulu.com/wp-content/uploads/2016/06/Hoorakhsh-Studios.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three-img-link-two {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://taskulu.com/wp-content/uploads/2016/03/SirEatsalot_Screenshot.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three-img-link-three {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://taskulu.com/wp-content/uploads/2016/05/Anetwork-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three-img-link-four {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://taskulu.com/wp-content/uploads/2016/05/IMG_7283-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three-icon {
+    width: 90%;
+    height: auto;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+}
+
+.section-three-img-link-one:hover .section-three-icon {
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.section-three-img-link-two:hover .section-three-icon {
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.section-three-img-link-three:hover .section-three-icon {
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.section-three-img-link-four:hover .section-three-icon {
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.section-three-title-improvement:before {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    content: ' ';
+    height: 1px;
+    width: 20%;
+    background-color: #979797;
+}
+
+.section-three-title-improvement:after {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    content: ' ';
+    height: 1px;
+    width: 20%;
+    background-color: #979797;
 }
