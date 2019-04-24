@@ -4,7 +4,6 @@ import Layout from "./Ui/Layout";
 import SectionOne from "./Component/SectionOne";
 import SectionTwo from "./Component/SectionTwo";
 import SectionThree from "./Component/SectionThree";
-
 class App extends Component {
     render() {
         return (
@@ -13,8 +12,9 @@ class App extends Component {
                     <Header/>
                     <SectionOne/>
                     <SectionTwo/>
-                    <SectionThree/>
+                    {/*<SectionThree/>*/}
                 </Layout>
+
             </div>
         );
     }

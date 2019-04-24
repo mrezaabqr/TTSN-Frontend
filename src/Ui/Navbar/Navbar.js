@@ -54,7 +54,7 @@ class Navbar extends Component {
                     mode="horizontal"
                 >
                     <Menu.Item>
-                        Taskulu
+                        نرم افزار مدیریت پروژه
                     </Menu.Item>
 
                 </Menu>

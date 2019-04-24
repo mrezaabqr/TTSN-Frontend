@@ -9,16 +9,16 @@ class SectionThree extends Component {
             <div className={"section-three-wrapper text-center"}>
                 <div className={"d-flex flex-column align-item-items justify-content-center"}>
                     <div className={"section-three d-flex flex-column align-item-items justify-content-center"}>
-                        <h1 className={"mt-17"} style={{color: "#3b3b3b"}}>با تسکولو کارها رو از اول تا آخر پیگیری
+                        <h1 className={"mt-17"} style={{color: "#3b3b3b"}}>با نرم افزار مدیریت پروژه کارها رو از اول تا آخر پیگیری
                             کنید</h1>
-                        <h3 className={"text-center"} style={{color: "#3b4755"}}>تسکولو یک نرم افزار برای ارتباط و
+                        <h3 className={"text-center"} style={{color: "#3b4755"}}>نرم افزار مدیریت پروژه یک نرم افزار برای ارتباط و
                             همکاری آنلاینه که مدیریت کارها و پروژه‌ها، مدیریت تیم،
                             زمان‌های
                             کاری و چت گروهی رو در یک جا ترکیب کرده تا شما بتونین پیشرفت کار رو مشاهده کنین و تیمتون
                             بتونه با
                             خیال راحت و به سادگی به کارش برسه و خروجی بیشتری داشته باشه.</h3>
                         <Button type={"primary"} size={"large"} className={"mt-14 section-three-button"}>
-                            اطلاعات بیشتر در مورد تسکولو
+                            اطلاعات بیشتر در مورد نرم افزار مدیریت پروژه
                         </Button>
                         <img src={backimg} className={"mt-17"}>
 
@@ -27,7 +27,7 @@ class SectionThree extends Component {
 
                         </img>
                         <h2 className={"text-center mt-13"}>
-                            تیم ها با تسکولو بازدهی بالاتری دارند
+                            تیم ها با نرم افزار مدیریت پروژه بازدهی بالاتری دارند
                         </h2>
 
                     </div>
@@ -62,7 +62,7 @@ class SectionThree extends Component {
                         </Col>
                     </Row>
                     <p className={"mt-10 section-three-title-improvement"} style={{width: "100%"}}>
-                        سازمان‌ها و شرکت‌هایی که با استفاده از تسکولو خروجی تیم‌هاشون رو افزایش دادن
+                        سازمان‌ها و شرکت‌هایی که با استفاده از نرم افزار مدیریت پروژه خروجی تیم‌هاشون رو افزایش دادن
                     </p>
                 </div>
 

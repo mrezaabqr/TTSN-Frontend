@@ -18,15 +18,14 @@ class SectionOne extends Component {
                         >
                             <div className={"d-flex justify-content-center flex-column align-item-items"}>
                                 <div className={"section-one-icon d-flex justify-content-center"}>
-                                    <img src={securityIcon}/>
+                                    <img src={securityIcon} width={200} height={200}/>
                                 </div>
                                 <h2 className={"mt-6"}>
                                     امنیت رو فدای سادگی نکنید
                                 </h2>
                                 <h5 className={"text-center"} style={{color: "#3b4755"}}>
-                                    با روش رمزنگاری استاندارد، دیتاسنترهایی امن در آلمان و نسخه‌های پشتیان روزانه،
-                                    تسکولو
-                                    امنیت و سادگی رو با هم داره.
+                                    با روش رمزنگاری استاندارد، دیتاسنترهایی امن در آلمان و نسخه‌های پشتیان روزانه،نرم
+                                    افزار مدیریت پروژه آنلاین امنیت و سادگی رو با هم داره.
                                 </h5>
                             </div>
 
@@ -39,14 +38,14 @@ class SectionOne extends Component {
                         >
                             <div className={"d-flex justify-content-center flex-column align-item-items"}>
                                 <div className={"section-one-icon d-flex justify-content-center"}>
-                                    <img src={reportIcon}/>
+                                    <img src={reportIcon} width={200} height={200}/>
                                 </div>
                                 <h2 className={"mt-6"}>
                                     به سادگی و زیبایی گزارش بگیرید
                                 </h2>
                                 <h5 className={"text-center"} style={{color: "#3b4755"}}>
-                                    شرکت‌ها حجم بزرگی از داده‌ها روی تسکولو در مورد نحوه کار و همکاری تیم‌هاشون دارن. با
-                                    تحلیل‌گر تسکولو، داده‌هاتون رو به تصمیم تبدیل کنین.
+                                    شرکت‌ها حجم بزرگی از داده‌ها روی نرم افزار مدیریت پروژه در مورد نحوه کار و همکاری تیم‌هاشون دارن. با
+                                    تحلیل‌گر نرم افزار مدیریت پروژه، داده‌هاتون رو به تصمیم تبدیل کنین.
                                 </h5>
                             </div>
                         </Card>
@@ -58,13 +57,13 @@ class SectionOne extends Component {
                         >
                             <div className={"d-flex justify-content-center flex-column align-item-items"}>
                                 <div className={"section-one-icon d-flex justify-content-center"}>
-                                    <img src={teamworkIcon}/>
+                                    <img src={teamworkIcon} width={200} height={200}/>
                                 </div>
                                 <h2 className={"mt-6"}>
                                     تیمی روی پروژه‌ها کار کنید
                                 </h2>
                                 <h5 className={"text-center"} style={{color: "#3b4755"}}>
-                                    کار یه فعالیت تیمیه، با تسکولو تیمتون رو دور هم جمع کنین و همکاری روی پروژه‌ها،
+                                    کار یه فعالیت تیمیه، با نرم افزار مدیریت پروژه تیمتون رو دور هم جمع کنین و همکاری روی پروژه‌ها،
                                     وظایف و فایل‌ها رو شروع کنین.
                                 </h5>
                             </div>

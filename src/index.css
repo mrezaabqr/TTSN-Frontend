@@ -227,7 +227,7 @@ code {
 /* header */
 .header-wrapper {
     background: url(Assets/Image/banner.jpg) no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     min-height: 600px;
     height: 1200px;
